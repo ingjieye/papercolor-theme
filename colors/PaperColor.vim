@@ -1367,19 +1367,19 @@ fun! s:apply_syntax_highlightings()
   exec 'hi cPreCondit' . s:fg_aqua
   exec 'hi cRepeat' . s:fg_purple . s:ft_bold
   exec 'hi cLabel' . s:fg_aqua
-  " exec 'hi cAnsiFunction' . s:fg_aqua . s:ft_bold
-  " exec 'hi cAnsiName' . s:fg_pink
+  exec 'hi cAnsiFunction' . s:fg_aqua . s:ft_bold
+  exec 'hi cAnsiName' . s:fg_pink
   exec 'hi cDelimiter' . s:fg_blue
-  " exec 'hi cBraces' . s:fg_foreground
-  " exec 'hi cIdentifier' . s:fg_blue . s:bg_pink
-  " exec 'hi cSemiColon'  . s:bg_blue
+  exec 'hi cBraces' . s:fg_foreground
+  exec 'hi cIdentifier' . s:fg_blue . s:bg_pink
+  exec 'hi cSemiColon'  . s:bg_blue
   exec 'hi cOperator' . s:fg_aqua
-  " exec 'hi cStatement' . s:fg_pink
-  " exec 'hi cTodo' . s:fg_comment . s:ft_bold
-  " exec 'hi cStructure' . s:fg_blue . s:ft_bold
+  exec 'hi cStatement' . s:fg_pink
+  exec 'hi cTodo' . s:fg_comment . s:ft_bold
+  exec 'hi cStructure' . s:fg_blue . s:ft_bold
   exec 'hi cCustomParen' . s:fg_foreground
-  " exec 'hi cCustomFunc' . s:fg_foreground
-  " exec 'hi cUserFunction' . s:fg_blue . s:ft_bold
+  exec 'hi cCustomFunc' . s:fg_foreground
+  exec 'hi cUserFunction' . s:fg_blue . s:ft_bold
   exec 'hi cOctalZero' . s:fg_purple . s:ft_bold
   if s:langOpt_c__highlight_builtins == 1
     exec 'hi cFunction' . s:fg_blue
